@@ -5,7 +5,7 @@ Detects driver drowsiness in real time using a webcam by monitoring the
 Eye Aspect Ratio (EAR) from facial landmarks, and triggers an audible
 alarm when the driver's eyes stay closed for too long.
 
-Author: Ranjit Senapati & Swapnesh Satpathy
+Author: Ranjit Senapati 
 Tech stack: Python, OpenCV, dlib, NumPy, Pandas, Matplotlib
 """
 

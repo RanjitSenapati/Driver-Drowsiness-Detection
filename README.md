@@ -1,4 +1,4 @@
-# 🚗 Driver Drowsiness Detection System
+# Driver Drowsiness Detection System
 
 Real-time driver drowsiness detection using computer vision. The system watches
 the driver's eyes through a webcam, computes the **Eye Aspect Ratio (EAR)**
@@ -11,17 +11,16 @@ prolonged eye closure — helping prevent micro-sleep accidents.
 
 ---
 
-## 📸 Demo
+## Demo
 
 | Eyes Open (Normal) | Eyes Closed (Alert Triggered) |
 |---|---|
 | EAR ≈ 0.30 | EAR < 0.25 → 🔔 Alarm |
 
-*(Add your own screenshots/GIF to `assets/demo.gif` and link them here)*
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Face Detection** — dlib's HOG-based frontal face detector locates the driver's face in each webcam frame.
 2. **Landmark Detection** — a 68-point facial landmark predictor maps the eyes and mouth.
@@ -39,7 +38,7 @@ prolonged eye closure — helping prevent micro-sleep accidents.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 drowsiness-detection/
@@ -61,7 +60,7 @@ drowsiness-detection/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 # 1. Clone the repository
@@ -89,7 +88,7 @@ bunzip2 models/shape_predictor_68_face_landmarks.dat.bz2
 
 ---
 
-## ▶️ Usage
+## Usage
 
 **Run the live detector:**
 
@@ -109,7 +108,7 @@ jupyter notebook notebooks/Driver_Drowsiness_Detection.ipynb
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -124,7 +123,7 @@ jupyter notebook notebooks/Driver_Drowsiness_Detection.ipynb
 
 ---
 
-## 📊 Results
+## Results
 
 - Real-time performance: **~25–30 FPS** on a standard laptop webcam (CPU only).
 - EAR threshold of **0.25** with **20 consecutive frames** reliably distinguishes blinks from drowsy eye closure.
@@ -132,7 +131,7 @@ jupyter notebook notebooks/Driver_Drowsiness_Detection.ipynb
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - [ ] Replace geometric EAR with a CNN eye-state classifier (open/closed) trained on the MRL Eye Dataset for higher accuracy in poor lighting
 - [ ] Add head-pose estimation to catch head-nodding drowsiness
@@ -142,14 +141,14 @@ jupyter notebook notebooks/Driver_Drowsiness_Detection.ipynb
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
 ## Author
 
-**Your Name**
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+**Ranjit Senapati**
+[LinkedIn](https://www.linkedin.com/in/ranjit-senapati/) · [GitHub](https://github.com/RanjitSenapati)
 
 ---
 
