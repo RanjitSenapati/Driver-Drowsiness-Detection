@@ -1,0 +1,10 @@
+opencv-python==4.9.0.80
+dlib==19.24.2
+imutils==0.5.4
+scipy==1.11.4
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.8.2
+pygame==2.5.2
+jupyter==1.0.0
+seaborn==0.13.2
